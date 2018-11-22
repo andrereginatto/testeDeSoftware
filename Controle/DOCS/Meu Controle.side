@@ -1,0 +1,234 @@
+{
+  "id": "0573f817-147c-4677-a99a-8426c9c1d06a",
+  "version": "1.1",
+  "name": "Meu Controle",
+  "url": "http://localhost/Controle/cadastro.php",
+  "tests": [{
+    "id": "cc031b58-2490-46e3-8ea8-95a34383bb35",
+    "name": "CT01 - Cadastro Usuario",
+    "commands": [{
+      "id": "5aa46a92-d522-42f0-938e-75ca8a82dbfb",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Controle/cadastro.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d672c49a-3207-4e90-b8fe-af5b2ef852e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1023x678",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "035aea24-a0f3-49c5-bc9b-9afc5e07a5bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f3ca287-b4a8-43bb-88c4-455af25b216d",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "nome1"
+    }, {
+      "id": "c7f3018e-80a2-4d28-814e-d0e78406933a",
+      "comment": "",
+      "command": "type",
+      "target": "id=sobrenome",
+      "targets": [
+        ["id=sobrenome", "id"],
+        ["name=sobrenome", "name"],
+        ["css=#sobrenome", "css"],
+        ["css=#sobrenome", "css:finder"],
+        ["xpath=//input[@id='sobrenome']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": "sobrenome1"
+    }, {
+      "id": "332367e2-4a56-419c-99a5-6677b5cc4220",
+      "comment": "",
+      "command": "type",
+      "target": "id=fone",
+      "targets": [
+        ["id=fone", "id"],
+        ["name=fone", "name"],
+        ["css=#fone", "css"],
+        ["css=#fone", "css:finder"],
+        ["xpath=//input[@id='fone']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "(54) 99999-9999"
+    }, {
+      "id": "85f693d0-d778-4338-825d-d35b3cf3c184",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css"],
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ebb794-f559-4d8a-a50e-11d5b0fb8500",
+      "comment": "",
+      "command": "click",
+      "target": "id=Masculino",
+      "targets": [
+        ["id=Masculino", "id"],
+        ["css=#Masculino", "css"],
+        ["css=#Masculino", "css:finder"],
+        ["xpath=//label[@id='Masculino']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div/div/label", "xpath:idRelative"],
+        ["xpath=//div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6039e610-a67b-4511-988f-bf88ba2897bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailform",
+      "targets": [
+        ["id=emailform", "id"],
+        ["css=#emailform", "css"],
+        ["css=#emailform", "css:finder"],
+        ["xpath=//input[@id='emailform']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77534bb3-1c87-478b-bd4d-e7b9fd320a9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailform",
+      "targets": [
+        ["id=emailform", "id"],
+        ["css=#emailform", "css"],
+        ["css=#emailform", "css:finder"],
+        ["xpath=//input[@id='emailform']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "exemplo@email.com"
+    }, {
+      "id": "3e93bda8-4fbc-46e9-bfda-3a34db606cae",
+      "comment": "",
+      "command": "type",
+      "target": "id=senhaform",
+      "targets": [
+        ["id=senhaform", "id"],
+        ["css=#senhaform", "css"],
+        ["css=#senhaform", "css:finder"],
+        ["xpath=//input[@id='senhaform']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[2]", "xpath:position"]
+      ],
+      "value": "testes123456"
+    }, {
+      "id": "9e3145be-f1e3-40fe-9135-a6ab1b0d7251",
+      "comment": "",
+      "command": "click",
+      "target": "id=aniver",
+      "targets": [
+        ["id=aniver", "id"],
+        ["name=aniver", "name"],
+        ["css=#aniver", "css"],
+        ["css=#aniver", "css:finder"],
+        ["xpath=//input[@id='aniver']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "515dd507-d212-45c0-9cfb-d1733593df94",
+      "comment": "",
+      "command": "type",
+      "target": "id=aniver",
+      "targets": [
+        ["id=aniver", "id"],
+        ["name=aniver", "name"],
+        ["css=#aniver", "css"],
+        ["css=#aniver", "css:finder"],
+        ["xpath=//input[@id='aniver']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": "1985-03-23"
+    }, {
+      "id": "47b2eb4b-09d8-460f-8076-d00d092a5977",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[name=\"save\"] > strong",
+      "targets": [
+        ["css=button[name=\"save\"] > strong", "css"],
+        ["css=.btn > strong", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/button/strong", "xpath:idRelative"],
+        ["xpath=//button/strong", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6a735b2f-09bf-408c-b331-b270aa8cf899",
+    "name": "CT02 - Criar Auto Cadastro(campos obrigatorios)",
+    "commands": [{
+      "id": "02da6c64-dc7f-40d6-9005-ca68b7963d36",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Controle/cadastro.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3a64019-9eee-4ced-8374-b41958c0ee62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1023x678",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9055f30-b13b-414d-a84e-371f85880283",
+      "comment": "",
+      "command": "click",
+      "target": "css=button[name=\"save\"] > strong",
+      "targets": [
+        ["css=button[name=\"save\"] > strong", "css"],
+        ["css=.btn > strong", "css:finder"],
+        ["xpath=//div[@id='main']/div/div[2]/form/div[2]/button/strong", "xpath:idRelative"],
+        ["xpath=//button/strong", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "087baaf8-4704-4fd3-a7c5-4cdcbc3cab58",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc031b58-2490-46e3-8ea8-95a34383bb35"]
+  }],
+  "urls": ["http://localhost/", "http://localhost/Controle/cadastro.php"],
+  "plugins": []
+}
